@@ -1,0 +1,7 @@
+{
+  "$id": "ce_dm_city",
+  "$schema": "https://schema.yext.com/config/km/entity-type/v2",
+  "description": "",
+  "displayName": "DM_City",
+  "pluralDisplayName": ""
+}

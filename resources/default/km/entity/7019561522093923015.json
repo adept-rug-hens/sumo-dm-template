@@ -1,0 +1,40 @@
+{
+  "$id": "7019561522093923015",
+  "$schema": "https://schema.yext.com/config/km/entity/v1",
+  "primaryLocale": "de",
+  "content": {
+    "address": {
+      "city": "Washington, DC",
+      "countryCode": "US",
+      "line1": "4645 Reservoir Rd NW",
+      "postalCode": "20007",
+      "region": "DC"
+    },
+    "addressHidden": false,
+    "categoryIds": [
+      "1223"
+    ],
+    "description": "ze deutsche embassy",
+    "name": "German embassy",
+    "timezone": "America/New_York"
+  },
+  "entityType": "location",
+  "labels": [],
+  "alternateProfiles": [
+    {
+      "locale": "en",
+      "content": {
+        "address": {
+          "city": "Washington, DC",
+          "countryCode": "US",
+          "line1": "4645 Reservoir Rd NW",
+          "postalCode": "20007",
+          "region": "DC"
+        },
+        "addressHidden": false,
+        "description": "the german embassy",
+        "name": "German embassy"
+      }
+    }
+  ]
+}

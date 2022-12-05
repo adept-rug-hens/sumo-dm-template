@@ -1,0 +1,47 @@
+{
+  "$id": "base-dm-config",
+  "$schema": "https://schema.yext.com/config/pages/directory-manager/v1",
+  "name": "Standard DM Configuration",
+  "baseEntities": {
+    "entityTypes": [
+      "location"
+    ]
+  },
+  "localization": {
+    "locales": [
+      "en",
+      "en_GB",
+      "de"
+    ]
+  },
+  "root": {
+    "entityType": "ce_dm_root",
+    "slug": "index.html"
+  },
+  "levels": [
+    {
+      "entityType": "ce_dm_country",
+      "field": "address.countryCode",
+      "slug": "{{address.countryCode}}",
+      "fieldsToCopyFromBase": [
+        "description"
+      ]
+    },
+    {
+      "entityType": "ce_dm_region",
+      "field": "address.region",
+      "slug": "{{address.region}}",
+      "fieldsToCopyFromBase": [
+        "description"
+      ]
+    },
+    {
+      "entityType": "ce_dm_city",
+      "field": "address.city",
+      "slug": "{{address.region}}/{{address.city}}",
+      "fieldsToCopyFromBase": [
+        "description"
+      ]
+    }
+  ]
+}

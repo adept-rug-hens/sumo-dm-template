@@ -1,0 +1,31 @@
+{
+  "$id": "7942788158356221433",
+  "$schema": "https://schema.yext.com/config/km/entity/v1",
+  "primaryLocale": "de",
+  "content": {
+    "address": {
+      "city": "Berlin",
+      "countryCode": "DE",
+      "line1": "Platz der Republik 1",
+      "postalCode": "11011",
+      "region": "Berlin"
+    },
+    "addressHidden": false,
+    "categoryIds": [
+      "1323003"
+    ],
+    "description": "Das ist capitol building",
+    "name": "Reichstag",
+    "timezone": "Europe/Berlin"
+  },
+  "entityType": "location",
+  "labels": [],
+  "alternateProfiles": [
+    {
+      "locale": "en",
+      "content": {
+        "description": "This is the capitol building for germany"
+      }
+    }
+  ]
+}

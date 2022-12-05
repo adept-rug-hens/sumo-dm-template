@@ -1,0 +1,31 @@
+{
+  "$id": "6769487574381793848",
+  "$schema": "https://schema.yext.com/config/km/entity/v1",
+  "primaryLocale": "en",
+  "content": {
+    "address": {
+      "city": "Munich",
+      "countryCode": "DE",
+      "line1": "Herzogspitalstraße 24",
+      "postalCode": "80331",
+      "region": "Bavaria"
+    },
+    "addressHidden": false,
+    "categoryIds": [
+      "1277759"
+    ],
+    "description": "Yext munich office",
+    "name": "Yext Germany",
+    "timezone": "Europe/Berlin"
+  },
+  "entityType": "location",
+  "labels": [],
+  "alternateProfiles": [
+    {
+      "locale": "de",
+      "content": {
+        "description": "Das ist munchen office"
+      }
+    }
+  ]
+}

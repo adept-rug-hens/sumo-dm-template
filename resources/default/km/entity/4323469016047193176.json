@@ -1,0 +1,22 @@
+{
+  "$id": "4323469016047193176",
+  "$schema": "https://schema.yext.com/config/km/entity/v1",
+  "primaryLocale": "en",
+  "content": {
+    "address": {
+      "city": "Arlington",
+      "countryCode": "US",
+      "line1": "101 W Abram St",
+      "postalCode": "76010",
+      "region": "TX"
+    },
+    "addressHidden": false,
+    "categoryIds": [
+      "665970"
+    ],
+    "name": "Arlington (texas) location",
+    "timezone": "America/Chicago"
+  },
+  "entityType": "location",
+  "labels": []
+}

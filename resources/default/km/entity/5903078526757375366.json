@@ -1,0 +1,30 @@
+{
+  "$id": "5903078526757375366",
+  "$schema": "https://schema.yext.com/config/km/entity/v1",
+  "primaryLocale": "en_GB",
+  "content": {
+    "address": {
+      "city": "London",
+      "countryCode": "GB",
+      "line1": "100 Chalton St",
+      "postalCode": "SW1A 1AA",
+      "region": "Westminster",
+      "sublocality": "Camden Town"
+    },
+    "addressHidden": false,
+    "categoryIds": [
+      "305"
+    ],
+    "description": "The royal palace of england",
+    "name": "Buckingham Palace",
+    "timezone": "Europe/London"
+  },
+  "entityType": "location",
+  "labels": [],
+  "alternateProfiles": [
+    {
+      "locale": "en",
+      "content": {}
+    }
+  ]
+}
