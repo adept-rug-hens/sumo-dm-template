@@ -6,7 +6,8 @@ To apply, clone this repo locally and cd into the top-level folder. Then, use th
 yext accounts create -u development
 ```
 
-Note the returned id, and call `yext init -u development`, choose `Create new credential`, and paste in the id where prompted.
+Note the returned id, and call `yext init -u development`, choose `Create new credential`, and paste in the id where prompted. Confirm that the account has
+a name like `Test Account`, and authorize when prompted. You now have a blank account configured!
 
 The directory config can be found at `resources/default/pages/directory-manager/base-dm-config.json`. Feel free to modify it if you have certain properties you
 want to test.
