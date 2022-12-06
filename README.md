@@ -14,7 +14,7 @@ cd resources
 yext resource apply . --on-missing-dependencies ADD
 ```
 note that you *cannot* run apply on `./resources`, you currently have to cd in for it to recognize the
-development json.
+dependency json.
 
 Once this is done, you can sign into the test account and you should see some predefined entities for you
 to work with. When you are ready to run the config on this account, call
