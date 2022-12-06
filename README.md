@@ -1,4 +1,4 @@
-# sumo-dm-template
+# Directory Manager Account Template
 
 To apply, clone this repo locally and cd into the top-level folder. Then, use the Yext CLI to spin up an empty account to which we can apply these templates.
 
