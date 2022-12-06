@@ -6,7 +6,7 @@ To apply, clone this repo locally and use the Yext CLI to spin up a new duplicat
 yext accounts create -u development
 ```
 
-Note the returned id, and call `yext init -u development`, choose `Create new credential`, and paste in the id.
+Note the returned id, and call `yext init -u development`, choose `Create new credential`, and paste in the id where prompted.
 
 Then run
 ```bash
