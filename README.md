@@ -13,7 +13,7 @@ Then run
 cd resources
 yext resource apply . --on-missing-dependencies ADD
 ```
-note that you *cannot* run apply on `./resources`, you currently have to cd in for it to recognize the
+note that you *cannot* just skip the cd and run apply on `./resources`, you currently have to cd in for it to recognize the
 dependency json.
 
 Once this is done, you can sign into the test account and you should see some predefined entities for you
