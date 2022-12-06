@@ -1,6 +1,6 @@
 # sumo-dm-template
 
-To apply, clone this repo locally and use the Yext CLI to spin up a new duplicate.
+To apply, clone this repo locally and cd into the top-level folder. Then, use the Yext CLI to spin up a new duplicate.
 
 ```bash
 yext accounts create -u development
