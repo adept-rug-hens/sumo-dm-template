@@ -1,6 +1,7 @@
 # Directory Manager Account Template
 
-To apply, clone this repo locally and cd into the top-level folder. Then, use the Yext CLI to spin up an empty account to which we can apply these templates.
+## Making the new account
+To start, clone this repo locally and cd into the top-level folder. Then, use the Yext CLI to spin up an empty account to which we can apply these templates.
 
 ```bash
 yext accounts create -u development
@@ -9,6 +10,7 @@ yext accounts create -u development
 Note the returned id, and call `yext init -u development`, choose `Create new credential`, and paste in the id where prompted. Confirm that the account has
 a name like `Test Account`, and authorize when prompted. You now have a blank account configured!
 
+## Applying data
 The directory config can be found at `resources/default/pages/directory-manager/base-dm-config.json`. Feel free to modify it if you have certain properties you
 want to test.
 
@@ -24,10 +26,11 @@ Once this is done, you can sign into the test account and you should see some pr
 to work with. Feel free to modify these as needed (you can also modify their json files before applying, but I find it
 typically easier to edit entities via the UI).
 
-To test the config locally, go through the normal flow with the grpc UI.
+## Running the config
+To test the config locally, go through the normal flow by calling PublishConfigUpsertedMessage with the grpc UI.
 
 If you want to run against the dev directory manager rather
-than locally, you can do
+than locally, you can execute
 ```bash
 yext dm run --cacId base-dm-config
 ```
