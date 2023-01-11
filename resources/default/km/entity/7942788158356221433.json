@@ -11,9 +11,6 @@
       "region": "Berlin"
     },
     "addressHidden": false,
-    "categoryIds": [
-      "1323003"
-    ],
     "description": "Das ist capitol building",
     "name": "Reichstag",
     "timezone": "Europe/Berlin"
