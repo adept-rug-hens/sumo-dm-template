@@ -2,7 +2,8 @@
   "$schema": "https://schema.yext.com/config/platform/account-features/v1",
   "enabled": [
     50,
-    363
+    363,
+    599
   ],
   "disabled": []
 }
